@@ -1,7 +1,7 @@
 extern crate rust_practice;
 
-use rust_practice::hello_world;
+use rust_practice::guessing_game;
 
 fn main() {
-    println!("{}", hello_world::hello_world());
+    guessing_game::main();
 }
