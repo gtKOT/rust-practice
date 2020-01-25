@@ -1,3 +1,7 @@
+extern crate rust_practice;
+
+use rust_practice::hello_world;
+
 fn main() {
-    println!("Hello World!");
+    println!("{}", hello_world::hello_world());
 }
