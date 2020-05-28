@@ -1,7 +1,7 @@
 extern crate rust_practice;
 
-use rust_practice::guessing_game;
+use rust_practice::dining_philosophers;
 
 fn main() {
-    guessing_game::main();
+    dining_philosophers::main();
 }
